@@ -1,0 +1,96 @@
+* {
+    font-family: Helvetica;
+    background-color: rgb(198, 198, 198);
+    transition:all 3s;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 200px; /* Adjust width as needed */
+    margin-right: 20px; /* Space between image and text */
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+header p{
+    margin: 0;
+    text-emphasis: italic;
+    font-size: 24pt;
+}
+
+h1 {
+    font-size: 64pt;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    row-gap: 10px;
+}
+
+h2 {
+    font-size: 32pt;
+}
+
+.subheader {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    column-gap: 10px;
+}
+
+.plus {
+    width: 50px;
+    height: 50px;
+    margin-right: 0;
+    padding-right: 0;
+    display: none;
+}
+
+.minus {
+    width: 50px;
+    height: 50px;
+    margin-right: 0;
+    padding-right: 0;
+    display: block;
+}
+
+.subheader h2 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+article section p {
+    font-size: 18pt;
+}
+
+article section ul li {
+    font-size: 18pt;
+}
+
+footer h2 {
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    list-style-type: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center items horizontally */
+}
+
+#contact li {
+    padding: 0 25px;
+}
